@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Inicio } from "./components/Inicio";
+import ParaQuem from "./components/ParaQuem";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <div className="bg-[#ED1566]">
         <Inicio />
       </div>
+      <ParaQuem />
     </div>
   );
 }
