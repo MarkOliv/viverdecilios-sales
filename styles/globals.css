@@ -21,6 +21,16 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: white;
   }
 }
+
+#parte1 {
+  background-color: #ed1566;
+}
+
+/* tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
