@@ -8,6 +8,7 @@ import SuporteWpp from "./components/SuporteWpp";
 import RecupereODinheiro from "./components/RecupereODinheiro";
 import Garantias from "./components/Garantias";
 import AprendaComQuemSabe from "./components/AprendaComQuemSabe";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -18,6 +19,20 @@ export default function Home() {
         <title>Curso Extensão de Cílios Larissa Costa</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-M59PTJ2C23"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-M59PTJ2C23');
+          
+          `}
+      </Script>
 
       <div className="w-full bg-black text-xl md:text-3xl font-bold text-center p-5">
         PROMOÇÃO 50% DE DESCONTO DE{" "}
