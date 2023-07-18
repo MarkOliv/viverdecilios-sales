@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Inicio } from "./components/Inicio";
+import Inicio from "./components/Inicio";
 import ParaQuem from "./components/ParaQuem";
 import OqueVaiAprender from "./components/OqueVaiAprender";
 import ProvasSociais from "./components/ProvasSociais";
