@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inicio } from "./components/Inicio";
 import ParaQuem from "./components/ParaQuem";
 import OqueVaiAprender from "./components/OqueVaiAprender";
+import ProvasSociais from "./components/ProvasSociais";
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
       <ParaQuem />
       <div className="bg-[#252525]">
         <OqueVaiAprender />
+      </div>
+      <div className="bg-[#ED1566]">
+        <ProvasSociais />
       </div>
     </div>
   );
