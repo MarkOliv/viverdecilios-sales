@@ -6,6 +6,7 @@ import ProvasSociais from "./components/ProvasSociais";
 import Certificado from "./components/Certificado";
 import SuporteWpp from "./components/SuporteWpp";
 import RecupereODinheiro from "./components/RecupereODinheiro";
+import Garantias from "./components/Garantias";
 
 export default function Home() {
   return (
@@ -39,6 +40,9 @@ export default function Home() {
         <SuporteWpp />
       </div>
       <RecupereODinheiro />
+      <div className="bg-black">
+        <Garantias />
+      </div>
     </div>
   );
 }
