@@ -3,6 +3,8 @@ import { Inicio } from "./components/Inicio";
 import ParaQuem from "./components/ParaQuem";
 import OqueVaiAprender from "./components/OqueVaiAprender";
 import ProvasSociais from "./components/ProvasSociais";
+import Certificado from "./components/Certificado";
+import SuporteWpp from "./components/SuporteWpp";
 
 export default function Home() {
   return (
@@ -29,6 +31,11 @@ export default function Home() {
       </div>
       <div className="bg-[#ED1566]">
         <ProvasSociais />
+      </div>
+      <Certificado />
+
+      <div className="bg-black">
+        <SuporteWpp />
       </div>
     </div>
   );
