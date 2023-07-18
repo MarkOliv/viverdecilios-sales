@@ -4,7 +4,7 @@ import * as React from "react";
 
 import image01 from "../assets/IMAGE 01.png";
 
-export const Inicio = () => {
+const Inicio = () => {
   return (
     <div id="parte1" className="container mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 p-5 md:p-10">
@@ -49,3 +49,5 @@ export const Inicio = () => {
     </div>
   );
 };
+
+export default Inicio;
