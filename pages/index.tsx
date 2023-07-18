@@ -5,6 +5,7 @@ import OqueVaiAprender from "./components/OqueVaiAprender";
 import ProvasSociais from "./components/ProvasSociais";
 import Certificado from "./components/Certificado";
 import SuporteWpp from "./components/SuporteWpp";
+import RecupereODinheiro from "./components/RecupereODinheiro";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
       <div className="bg-black">
         <SuporteWpp />
       </div>
+      <RecupereODinheiro />
     </div>
   );
 }
