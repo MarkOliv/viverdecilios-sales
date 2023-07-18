@@ -38,9 +38,13 @@ export const Inicio = () => {
       </div>
 
       <div className="flex justify-center p-5 md:p-10">
-        <div className="p-5 text-xl md:text-4xl text-center font-bold text-white bg-green-500 shadow shadow-green-500 rounded-xl w-[800px] -mt-20">
+        <a
+          href="https://go.hotmart.com/D84890007K?ap=f4a1"
+          target="_blank"
+          className="p-5 text-xl md:text-4xl text-center font-bold text-white bg-green-500 shadow shadow-green-500 rounded-xl w-[800px] -mt-20"
+        >
           SIM QUERO COMPRAR COM DESCONTO
-        </div>
+        </a>
       </div>
     </div>
   );

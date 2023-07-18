@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <meta name="author" content="Marcos Oliveira" />
         <meta name="description" content="Treinamento Viver de Cilios" />
-        <title>Treinamento Viver de Cilios</title>
+        <title>Curso Extensão de Cílios Larissa Costa</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
