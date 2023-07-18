@@ -17,7 +17,7 @@ const AprendaComQuemSabe = (props: Props) => {
           <h1 className="text-5xl font-bold text-black text-left">
             Aprenda com Quem Sabe...
           </h1>
-          <div className="w-full h-1 bg-red-500 my-5" />
+          <div className="w-full h-1 bg-[#C65895] my-5" />
           <h2 className="text-black text-3xl font-semibold text-left">
             Larissa Costa
           </h2>

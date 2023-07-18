@@ -25,14 +25,14 @@ export default function Home() {
         <span className="text-green-500"> R$ 297,00</span>
       </div>
 
-      <div className="bg-[#ED1566]">
+      <div className="bg-[#C65895]">
         <Inicio />
       </div>
       <ParaQuem />
       <div className="bg-[#252525]">
         <OqueVaiAprender />
       </div>
-      <div className="bg-[#ED1566]">
+      <div className="bg-[#C65895]">
         <ProvasSociais />
       </div>
       <Certificado />
@@ -45,7 +45,7 @@ export default function Home() {
         <Garantias />
       </div>
       <AprendaComQuemSabe />
-      <div className="bg-[#ED1566] p-10">
+      <div className="bg-[#C65895] p-10">
         <p className="text-center font-semibold">
           Esse produto é comercializado com apoio da Hotmart. A plataforma não
           faz controle editorial prévio dos produtos comercializados, nem avalia

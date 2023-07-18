@@ -75,7 +75,7 @@ const OqueVaiAprender = () => {
             <Image src={video1} alt="print video" />
           </div>
           <div className="my-10">
-            <h1 className="text-3xl font-bold text-[#ED1566]">
+            <h1 className="text-3xl font-bold text-[#C65895]">
               Você vai aprender toda a parte teórica:
             </h1>
             <p className="text-xl mt-14 font-light">
@@ -91,7 +91,7 @@ const OqueVaiAprender = () => {
             <Image src={video2} alt="print video" />
           </div>
           <div className="my-10">
-            <h1 className="text-3xl font-bold text-[#ED1566]">
+            <h1 className="text-3xl font-bold text-[#C65895]">
               Você vai aprender toda a parte de treinamento:
             </h1>
             <p className="text-xl mt-14 font-light">
@@ -105,7 +105,7 @@ const OqueVaiAprender = () => {
             <Image src={video3} alt="print video" />
           </div>
           <div className="my-10">
-            <h1 className="text-3xl font-bold text-[#ED1566]">
+            <h1 className="text-3xl font-bold text-[#C65895]">
               Você vai aprender toda a parte de prática:
             </h1>
             <p className="text-xl mt-14 font-light">
@@ -122,7 +122,7 @@ const OqueVaiAprender = () => {
             <Image src={video4} alt="print video" />
           </div>
           <div className="my-10">
-            <h1 className="text-3xl font-bold text-[#ED1566]">
+            <h1 className="text-3xl font-bold text-[#C65895]">
               BÔNUS: Material de Apoio Personalizado
             </h1>
             <p className="text-xl mt-14 font-light">
@@ -134,7 +134,7 @@ const OqueVaiAprender = () => {
         </div>
 
         <h1 className="text-center text-white text-3xl md:text-5xl font-bold mb-10">
-          GRADE1 COMPLETA DO CURSO
+          GRADE COMPLETA DO CURSO
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3">
           {grade1.map((item, index) => (
@@ -152,7 +152,7 @@ const OqueVaiAprender = () => {
           ))}
         </div>
 
-        <h1 className="text-center text-[#ED1566] text-3xl md:text-5xl font-bold mb-10">
+        <h1 className="text-center text-[#C65895] text-3xl md:text-5xl font-bold mb-10">
           Aulas Bônus de Marketing Digital
         </h1>
         <h2 className="text-center text-white text-2xl md:text-4xl font-semibold mb-10">
@@ -176,7 +176,7 @@ const OqueVaiAprender = () => {
         </div>
         <h2 className="text-center text-white text-xl md:text-3xl font-semibold mb-10">
           Muitas meninas compram cursos técnicos, mas se esquecem que é{" "}
-          <span className="text-[#ED1566]">
+          <span className="text-[#C65895]">
             necessário saber estratégias de Vendas e Marketing{" "}
           </span>
           para conseguir dar certo na profissão. Logo acabam desistindo da
