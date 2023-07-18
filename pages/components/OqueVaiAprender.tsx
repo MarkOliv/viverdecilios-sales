@@ -79,7 +79,7 @@ const OqueVaiAprender = () => {
               Você vai aprender toda a parte teórica:
             </h1>
             <p className="text-xl mt-14 font-light">
-              Antes de colocar a mão na "massa" é necessário saber como tudo
+              Antes de colocar a mão na massa é necessário saber como tudo
               funciona, então começamos pelas aulas teóricas para entender todo
               o procedimento e tudo que envolve as Extensões de Cílios.
             </p>
